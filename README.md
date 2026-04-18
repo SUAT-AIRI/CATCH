@@ -194,7 +194,7 @@ python run_evaluation.py \
 ## Data Flow
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Raw dialogues] --> B[TopSeg preprocessing]
     B --> C[Conversation-level adaptation]
     C --> D[Utterance-level adaptation]
